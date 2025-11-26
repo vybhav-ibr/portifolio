@@ -49,11 +49,17 @@ export const siteConfig = {
       school: "University of klagenfurt, Austria",
       degree: "Study abroad",
       dateRange: "2023-2024",
+      achievements: [
+        "Learnt about cutting-edge research in the field of robotics and was invided to contribute to ongoing research projects",
+      ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
+      school: "Lovely Professional University, India",
+      degree: "Batchelors in Robotics and Automation",
       dateRange: "2020-2024",
+      achievements: [
+        "Graduated with a CGPA of 8.0 CGPA, making it to the top 10% of the class",
+      ],
     },
   ],
 };
