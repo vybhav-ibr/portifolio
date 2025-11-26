@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/vybhav-ibr",
   },
   aboutMe:
-    "I’m a robotics software developer, and I spend my days teaching robots how to do cool stuff, or rather teach them how to teach themselves. I’m all about making machines smarter and more autonomous, so we cab finally use them for all the lame stuff in our lives. I try to do it all, whether it’s coding for robots that can navigate tricky environments or building systems that help them think on their feet (or wheels, or whatever they’ve got going on).If you’re into robots, AI, or solving problems no one thought were possible a decade ago, hit me up! Let’s collaborate and build something awesome together!",
+    "I am a robotics software developer, and I spend my days teaching robots how to do cool stuff, or rather teach them how to teach themselves. I’m all about making machines smarter and more autonomous, so we cab finally use them for all the lame stuff in our lives. I try to do it all, whether it’s coding for robots that can navigate tricky environments or building systems that help them think on their feet (or wheels, or whatever they’ve got going on).If you’re into robots, AI, or solving problems no one thought were possible a decade ago, hit me up! Let’s collaborate and build something awesome together!",
   skills: ["AI","RL","ROS","Docker","Linux","Simulation"],
   projects: [
     {
