@@ -1,92 +1,59 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Vybhav Ilindra",
+  title: "Roborics Software Engineer",
+  description: "Portfolio website of Vybhav Ilindra",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ibr.vybhav@gmail.com",
+    linkedin: "https://www.linkedin.com/in/vybhav-ibr/",
+    github: "https://github.com/vybhav-ibr",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a robotics software developer, and I spend my days teaching robots how to do cool stuff, or rather teach them how to teach themselves. I’m all about making machines smarter and more autonomous, so we cab finally use them for all the lame stuff in our lives. I try to do it all, whether it’s coding for robots that can navigate tricky environments or building systems that help them think on their feet (or wheels, or whatever they’ve got going on).If you’re into robots, AI, or solving problems no one thought were possible a decade ago, hit me up! Let’s collaborate and build something awesome together!",
+  skills: ["AI","RL","ROS","Docker","Linux","Simulation"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "RL Drone Racer",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A drone learning to race using reinforcement learning, adaptable to any changes in its environment, like position and size of obstacles and lighting conditions ",
+      skills: ["RL", "Simulation", "Computer Vision", "Lidar odometry" ],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Smart Palletiser",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A mobile manipulator robot to stack boxes of various sizes into pallets, made possible using a fusion of modern approaxhes such as reinforcement learning and classical approaches such as sampling based path planing",
+      skills: ["RL", "Simulation", "Path Planning"],
     },
     {
-      name: "ExtensionKit",
+      name: "Genesis-ROS",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An Open-source, lightweight pythonic bridge between the genesis simulator and ROS2, featured on the open-robotics newsletter",
+      link: "https://github.com/vybhav-ibr/genesis_ros",
+      skills: ["Python","Genesis"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Control of networked systems research group(CNS), klagenfurt, Austria",
+      title: "Roborics software developer",
+      dateRange: "Feb 2024 - March 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Contributed to research in the field of GNSS denied drone navigation",
+        "Made opensource contributions to ultra wide band(UWB) based state estimation uisng modular sensor fusion",
+        "Worked in a diverse team of researchers and industry experts to push the boundary of robotics",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "University of klagenfurt, Austria",
+      degree: "Study abroad",
+      dateRange: "2023-2024",
     },
     {
       school: "Online Platform",
       degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      dateRange: "2020-2024",
     },
   ],
 };
